@@ -1,0 +1,126 @@
+.background1 {
+  background: #D0D4DA;
+}
+.allinone {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25%;
+}
+.ground1 {
+   background: white; 
+  display: flex;
+ /* position: absolute;
+  top: auto;
+  left: auto; */
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  
+}
+.left {  
+/* background: green; */
+  width: 200px;
+  border-radius: 15px 0px 0px 15px;
+  height: 300px;
+    }
+
+.right {
+  
+   /* background: yellow; */
+  width: 400px;
+  height: auto;
+   border-radius: 0px 15px 15px 0px;
+  
+}
+.pic1 {
+  border-radius: 15px 0px 0px 15px;
+ /* height: 150px; */
+}
+.header {
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.text1 {
+  margin-left: 15px;
+  margin-right: 5px;
+  font-size: 17px;  
+  font-family: 'Roboto', sans-serif;
+}
+.shekels {
+   display:flex;
+  position: relative;
+  top: 25%;
+  margin-left:10px;
+  
+}
+.lowtier1 {
+ color: #182231;
+  width: 100px;
+  margin-left: 5px;
+  font-size: x-large;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.jmakni {
+  color: white; 
+  font-weight: bold;
+  text-decoration: none;
+  user-select: none; 
+  background: #182231;
+  padding: .5em .6em; 
+  border-radius: 5px;
+vertical-align: right;
+  margin-left: 120px;
+ font-family: 'Roboto', sans-serif;
+  
+} 
+a.button:hover { background: grey; } 
+a.button:active { background: #696969; } 
+
+.starvsevil {
+  position: relative;
+  top: 10%;
+  left: -25.5%    
+}
+
+.rating-area {
+	overflow: hidden;
+	width: 250px;
+	margin: 0 auto;
+}
+.rating-area:not(:checked) > input {
+	display: none;
+}
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+
+}
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+.rating-area > input:checked ~ label {
+	color: #182231;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: #182231;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: #182231;
+	
+}
+.rate-area > label:active {
+	position: relative;
+}
